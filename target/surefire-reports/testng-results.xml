@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestKatalon" duration-ms="51955" started-at="2019-08-15T05:49:58Z" finished-at="2019-08-15T05:50:50Z">
+    <groups>
+    </groups>
+    <test name="test" duration-ms="51955" started-at="2019-08-15T05:49:58Z" finished-at="2019-08-15T05:50:50Z">
+      <class name="TestYunDuiJiang.TestCreateAgent">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestYunDuiJiang.TestCreateAgent@1dd02175]" name="setUp" is-config="true" duration-ms="6453" started-at="2019-08-15T05:49:58Z" finished-at="2019-08-15T05:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCase001(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestYunDuiJiang.TestCreateAgent@1dd02175]" name="testCase001" duration-ms="44405" started-at="2019-08-15T05:50:04Z" data-provider="dp_1" finished-at="2019-08-15T05:50:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C0006]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lvliwen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testYun]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testYun]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20190814]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123456@qq.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[lvliwen]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestYunDuiJiang.TestCreateAgent@1dd02175]" name="tearDown" is-config="true" duration-ms="823" started-at="2019-08-15T05:50:49Z" finished-at="2019-08-15T05:50:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestYunDuiJiang.TestCreateAgent -->
+    </test> <!-- test -->
+  </suite> <!-- TestKatalon -->
+</testng-results>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<suite name="test" parallel="true">-->
+<suite name="TestKatalon">
+    <test name="test" preserver-order="true">
+        <classes>
+            <!--//你也可以多个-->
+            <!--<class name="testCase.login_demo"/>-->
+            <!--<class name="testCase.isDefaultOpenedCustomer"/>-->
+            <!--<class name="testCase.transferTest"/>-->
+            <!--<class name="testCase.logOutTest"/>-->
+            <!--<class name="testCase.paymentCodeTest"/>-->
+            <!--<class name="testcase.demo"/>-->
+            <class name="TestYunDuiJiang.TestCreateAgent"/>
+            <!--<class name="TestYunDuiJiang.TestCreateCommunity"/>-->
+        </classes>
+
+
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
+
