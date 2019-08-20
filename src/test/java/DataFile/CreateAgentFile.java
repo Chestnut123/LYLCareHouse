@@ -14,7 +14,7 @@ public class CreateAgentFile {
     }
 
     /**
-     * 创建代理1
+     * 创建代理
      * @return
      */
     @DataProvider(name = "dp_1")

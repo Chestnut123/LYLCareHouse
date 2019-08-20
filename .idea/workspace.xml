@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5a83a0b-d034-4562-8070-1589d9ba54a6" name="Default Changelist" comment="" />
+    <list default="true" id="b5a83a0b-d034-4562-8070-1589d9ba54a6" name="Default Changelist" comment="z">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DataFile/CreateAgentFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataFile/CreateAgentFile.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,21 +79,23 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.72" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="java" value="831" />
+          <entry key="java" value="837" />
+          <entry key="txt" value="1" />
           <entry key="xml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="831" />
-          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="JAVA" value="837" />
+          <entry key="PLAIN_TEXT" value="12" />
           <entry key="XML" value="20" />
         </counts>
       </usages-collector>
@@ -115,17 +120,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
+            <state relative-caret-position="627">
               <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestYunDuiJiang/TestCreateAgent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="82" column="35" lean-forward="true" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
+            <state relative-caret-position="114">
+              <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,7 +141,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestYunDuiJiang/TestCreateCommunity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="1881">
               <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -148,7 +153,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DataFile/CreateCommunityFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="332">
               <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
             </state>
           </provider>
@@ -158,7 +163,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/Util/Basicfile.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="43" selection-end-column="27" />
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="43" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -172,11 +177,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DataFile/CreateAgentFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="23" column="53" selection-start-line="22" selection-start-column="19" selection-end-line="23" selection-end-column="53" />
+            <state relative-caret-position="195">
+              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -195,6 +200,10 @@
       <find>TestZhiLiangWenTiDan</find>
       <find>verificationErrors</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -220,12 +229,12 @@
         <option value="$PROJECT_DIR$/src/test/java/TestZhiLiangWenTiDan/TestZhiLiangDaoRu.java" />
         <option value="$PROJECT_DIR$/src/test/java/DataFile/JingYanZongJieFile.java" />
         <option value="$PROJECT_DIR$/src/test/java/Util/Basicfile.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DataFile/CreateAgentFile.java" />
         <option value="$PROJECT_DIR$/src/test/java/DataFile/CreateCommunityFile.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestYunDuiJiang/TestCreateAgent.java" />
         <option value="$PROJECT_DIR$/testNg.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/TestYunDuiJiang/TestCreateCommunity.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DataFile/CreateAgentFile.java" />
       </list>
     </option>
   </component>
@@ -268,11 +277,13 @@
     <option name="width" value="980" />
     <option name="height" value="550" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,6 +295,12 @@
               <item name="TestCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestCloud" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestCloud" type="b2602c69:ProjectViewProjectNode" />
@@ -306,27 +323,10 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="DataFile" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TestCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestYunDuiJiang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -338,13 +338,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/develop/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565863947199" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566272437081" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -453,7 +454,16 @@
       <workItem from="1562033407195" duration="1208000" />
       <workItem from="1565687915679" duration="25758000" />
       <workItem from="1565853872347" duration="4456000" />
+      <workItem from="1566270934617" duration="1469000" />
     </task>
+    <task id="LOCAL-00001" summary="z">
+      <created>1566272230681</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566272230681</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -468,12 +478,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136024000" />
+    <option name="totallyTimeSpent" value="137493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20726173" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21028744" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -489,7 +500,7 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.27168575" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.27213115" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -508,6 +519,14 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="z" />
+    <option name="LAST_COMMIT_MESSAGE" value="z" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -567,10 +586,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DataFile/CreateCommunityFile.java">
+    <entry file="file://$PROJECT_DIR$/allure-results/fffa17ab-41f3-4ecc-bd3f-5834566b2f9f-container.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        <state relative-caret-position="627">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestYunDuiJiang/TestCreateCommunity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1881">
+          <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Util/Basicfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="43" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -581,47 +620,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/allure-results/fffa17ab-41f3-4ecc-bd3f-5834566b2f9f-container.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestYunDuiJiang/TestCreateAgent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestYunDuiJiang/TestCreateCommunity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
+        <state relative-caret-position="114">
+          <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataFile/CreateCommunityFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DataFile/CreateAgentFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="23" column="53" selection-start-line="22" selection-start-column="19" selection-end-line="23" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Util/Basicfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="43" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestYunDuiJiang/TestCreateAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="82" column="35" lean-forward="true" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -677,11 +696,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>TestKatalon</last-edited>
+          <last-edited>TestCloud</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -701,7 +721,18 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: cglib:cglib-nodep:3.2.4</last-edited>
+          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
