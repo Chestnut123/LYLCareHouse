@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestKatalon" duration-ms="51955" started-at="2019-08-15T05:49:58Z" finished-at="2019-08-15T05:50:50Z">
+  <suite name="TestCloud" duration-ms="51362" started-at="2019-08-20T05:11:58Z" finished-at="2019-08-20T05:12:50Z">
     <groups>
     </groups>
-    <test name="test" duration-ms="51955" started-at="2019-08-15T05:49:58Z" finished-at="2019-08-15T05:50:50Z">
+    <test name="test" duration-ms="51362" started-at="2019-08-20T05:11:58Z" finished-at="2019-08-20T05:12:50Z">
       <class name="TestYunDuiJiang.TestCreateAgent">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestYunDuiJiang.TestCreateAgent@1dd02175]" name="setUp" is-config="true" duration-ms="6453" started-at="2019-08-15T05:49:58Z" finished-at="2019-08-15T05:50:04Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestYunDuiJiang.TestCreateAgent@1dd02175]" name="setUp" is-config="true" duration-ms="5758" started-at="2019-08-20T05:11:58Z" finished-at="2019-08-20T05:12:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testCase001(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestYunDuiJiang.TestCreateAgent@1dd02175]" name="testCase001" duration-ms="44405" started-at="2019-08-15T05:50:04Z" data-provider="dp_1" finished-at="2019-08-15T05:50:49Z">
+        <test-method status="PASS" signature="testCase001(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestYunDuiJiang.TestCreateAgent@1dd02175]" name="testCase001" duration-ms="44553" started-at="2019-08-20T05:12:04Z" data-provider="dp_1" finished-at="2019-08-20T05:12:49Z">
           <params>
             <param index="0">
               <value>
@@ -62,11 +62,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase001 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestYunDuiJiang.TestCreateAgent@1dd02175]" name="tearDown" is-config="true" duration-ms="823" started-at="2019-08-15T05:50:49Z" finished-at="2019-08-15T05:50:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestYunDuiJiang.TestCreateAgent@1dd02175]" name="tearDown" is-config="true" duration-ms="800" started-at="2019-08-20T05:12:49Z" finished-at="2019-08-20T05:12:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestYunDuiJiang.TestCreateAgent -->
     </test> <!-- test -->
-  </suite> <!-- TestKatalon -->
+  </suite> <!-- TestCloud -->
 </testng-results>

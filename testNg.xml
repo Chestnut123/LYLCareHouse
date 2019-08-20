@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--<suite name="test" parallel="true">-->
-<suite name="TestKatalon">
+<suite name="TestCloud">
     <test name="test" preserver-order="true">
         <classes>
             <!--//你也可以多个-->
