@@ -60,6 +60,7 @@
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <suiteXmlFiles>testNg.xml</suiteXmlFiles>
+                    <skipTests>true</skipTests>
                 </configuration>
             </plugin>
             <plugin>
