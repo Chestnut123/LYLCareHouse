@@ -1,12 +1,14 @@
 package Util;
 
-import java.util.concurrent.TimeUnit;
-
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.*;
-import static org.testng.Assert.*;
-import org.openqa.selenium.*;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+
+import java.util.concurrent.TimeUnit;
+
+import static org.testng.Assert.fail;
 
 public class Basicfile {
 

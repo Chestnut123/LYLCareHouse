@@ -10,7 +10,7 @@
             <!--<class name="testCase.logOutTest"/>-->
             <!--<class name="testCase.paymentCodeTest"/>-->
             <!--<class name="testcase.demo"/>-->
-            <class name="TestYunDuiJiang.TestCreateAgent"/>
+            <class name="TestCase.TestCreateAgent"/>
             <!--<class name="TestYunDuiJiang.TestCreateCommunity"/>-->
         </classes>
 

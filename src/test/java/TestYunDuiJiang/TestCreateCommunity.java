@@ -99,7 +99,7 @@ public class TestCreateCommunity extends Basicfile {
         Thread.sleep(2000);
 
         //上传位置图
-        /*WebElement p = driver.findElement(By.name("files"));
+        /*WebElement p = TestCase.findElement(By.name("files"));
         p.sendKeys("C:\\Users\\T560\\Pictures\\Saved Pictures\\新建文件夹\\L5.jpg");
         System.out.println(12121);
         Thread.sleep(8000);*/

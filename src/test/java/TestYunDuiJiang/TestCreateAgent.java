@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.interactions.Mouse;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -60,7 +59,7 @@ public class TestCreateAgent extends Basicfile {
 
         //鼠标悬浮事件
         Actions action = new Actions(driver);
-        //WebElement mose = driver.findElement(By.linkText("泰金科技"));
+        //WebElement mose = TestCase.findElement(By.linkText("泰金科技"));
         action.moveToElement(driver.findElement(By.linkText("泰金科技"))).click().perform();
 
         //新增代理
@@ -133,7 +132,7 @@ public class TestCreateAgent extends Basicfile {
         Thread.sleep(8000);
 
         //auto工具上传图片
-        /*driver.findElement(By.xpath("//*[@id=\"1565838577919\"]")).click();
+        /*TestCase.findElement(By.xpath("//*[@id=\"1565838577919\"]")).click();
         Thread.sleep(2000);
         Runtime rt1 = Runtime.getRuntime();
         try {
@@ -145,7 +144,7 @@ public class TestCreateAgent extends Basicfile {
         Thread.sleep(5000);*/
 
         //提交
-        //driver.findElement(By.xpath("//*[@id=\"submit\"]")).click();
+        //TestCase.findElement(By.xpath("//*[@id=\"submit\"]")).click();
         //Thread.sleep(2000);
     }
 }
