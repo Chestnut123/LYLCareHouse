@@ -9,6 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import static org.testng.Assert.assertTrue;
 
 /**
  * 创建代理
@@ -48,6 +49,16 @@ public class TestCreateAgent extends Basicfile {
         //登录
         driver.findElement(By.xpath("//*[@id='main']/div[5]/form/section[5]/button")).click();
         Thread.sleep(2000);
+
+        //断言
+        if(driver.getTitle().contains("社区维护"))
+            //Pass
+            System.out.println("Page title contains \"社区维护\" ");
+        else
+            //Fail
+            System.out.println("Page title doesn't contains \"社区维护\" ");
+
+        //assertTrue(driver.getTitle().contains("社区维护"));
 
         //代理管理
         driver.findElement(By.xpath("//*[@id=\"menu_333\"]/a/span")).click();
@@ -129,7 +140,7 @@ public class TestCreateAgent extends Basicfile {
         WebElement p = driver.findElement(By.name("files"));
         p.sendKeys("C:\\Users\\T560\\Pictures\\Saved Pictures\\新建文件夹\\L5.jpg");
         System.out.println(12121);
-        Thread.sleep(8000);
+        Thread.sleep(4000);
 
         //auto工具上传图片
         /*TestCase.findElement(By.xpath("//*[@id=\"1565838577919\"]")).click();
@@ -144,7 +155,7 @@ public class TestCreateAgent extends Basicfile {
         Thread.sleep(5000);*/
 
         //提交
-        //TestCase.findElement(By.xpath("//*[@id=\"submit\"]")).click();
-        //Thread.sleep(2000);
+        driver.findElement(By.xpath("//*[@id=\"submit\"]")).click();
+        Thread.sleep(2000);
     }
 }

@@ -7,7 +7,6 @@
     <groupId>com.efast</groupId>
     <artifactId>TestCloud</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
 
     <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,7 +20,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>3.141.59</version>
+            <version>3.4.0</version>
         </dependency>
 
         <!--引入依赖/jar包等-->
@@ -29,21 +28,15 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>6.14.2</version>
-            <scope>test</scope>
         </dependency>
 
         <dependency>
-            <groupId>io.qameta.allure</groupId>
-            <artifactId>allure-testng</artifactId>
-            <version>2.8.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.14.3</version>
-            <scope>compile</scope>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-api</artifactId>
+            <version>3.4.0</version>
         </dependency>
 
+        <!--报告-->
 
     </dependencies>
 
@@ -66,7 +59,7 @@
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <suiteXmlFiles>testNg.xml</suiteXmlFiles>
-                    <skipTests>true</skipTests>
+                    <!--<skipTests>true</skipTests>-->
                 </configuration>
             </plugin>
             <plugin>
