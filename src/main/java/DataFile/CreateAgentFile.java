@@ -20,7 +20,7 @@ public class CreateAgentFile {
     @DataProvider(name = "dp_1")
     public Object[][] dp_1() {
         return new Object[][]{
-                {"C0006","lvliwen","111111","test123","test123",
+                {"C0006","lvliwen","123456","test123","test123",
                 "201909899","123456@qq.com","lvliwen","111111"},
         };
     }
