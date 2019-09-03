@@ -2,6 +2,9 @@ package TestCase;
 
 import DataFile.CreateAgentFile;
 import Util.Basicfile;
+import io.qameta.allure.Description;
+import io.qameta.allure.Issue;
+import io.qameta.allure.TmsLink;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -27,6 +30,9 @@ public class TestCreateAgent extends Basicfile {
         driver.quit();
     }
 
+    @TmsLink("01")
+    @Issue("GH-56")
+    @Description("测试allure report")
     @Test(dataProvider = "dp_1", dataProviderClass = CreateAgentFile.class)
     public void testCase001 (String inputid_441_0, String inputid_441_1, String inputid_441_2,
                              String inputid_441_3, String inputid_441_4, String inputid_441_5,
