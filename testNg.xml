@@ -11,7 +11,7 @@
             <!--<class name="testCase.paymentCodeTest"/>-->
             <!--<class name="testcase.demo"/>-->
             <class name="TestCase.TestCreateAgent"/>
-            <!--<class name="TestYunDuiJiang.TestCreateCommunity"/>-->
+            <class name="TestCase.TestCreateCommunity"/>
         </classes>
 
 
